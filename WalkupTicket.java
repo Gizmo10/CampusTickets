@@ -5,7 +5,7 @@ package CampusTickets;
 
 public class WalkupTicket extends Tickets{
     //field to store the ticket price
-    double price;
+    private double price;
 
     //constructor for WalkUpTicket
     public WalkupTicket(String serialNumber){

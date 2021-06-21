@@ -3,12 +3,12 @@ the price of an event. This type of ticket can only be bought on the day of even
  */
 package CampusTickets;
 
-public class WalkUpTicket extends Tickets{
+public class WalkupTicket extends Tickets{
     //field to store the ticket price
     double price;
 
     //constructor for WalkUpTicket
-    public WalkUpTicket(String serialNumber){
+    public WalkupTicket(String serialNumber){
         super(serialNumber);//calls the constructor of the superclass Tickets
         this.price = 50.00;
     }

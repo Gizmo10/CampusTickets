@@ -16,16 +16,11 @@ public class AdvanceTicket extends Tickets {
         this.numOfDaysToEvent = numOfDaysToEvent;
     }
 
-    //return the number of days in advance ticket was purchased
-    public int getDays(){
-
-        return numOfDaysToEvent;
-    }
 
     //Implements the abstract method getPrice
     public double getPrice(){
 
-        /*If the ticket is purchased 10 days ot more in advance
+        /*If the ticket is purchased 10 days of more in advance
         set price to R30.00 else R40.00
          */
         if(numOfDaysToEvent >= 10){

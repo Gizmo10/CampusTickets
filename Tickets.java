@@ -3,7 +3,7 @@ package CampusTickets;
  */
 public abstract class Tickets {
     //serial number of the Ticket which is unique
-    String serialNumber;
+   private String serialNumber;
 
     //constructor of the abstract class
     public Tickets(String serialNumber){

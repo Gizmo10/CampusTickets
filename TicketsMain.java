@@ -26,5 +26,14 @@ public class TicketsMain {
             System.out.println(t);
         }
 
+        //Declare a WalkupTicket and compare it to first element of array
+        WalkupTicket w = new WalkupTicket("1001");
+
+        if(w.equals(eventTickets[0])){
+            System.out.println("The equals method works.");
+        }else{
+            System.out.println("The equals method has a bug(s)");
+        }
+
     }
 }

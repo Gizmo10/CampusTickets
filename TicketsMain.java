@@ -16,5 +16,15 @@ public class TicketsMain {
         new AdvanceTicket("1003", 7),new StudentAdvanceTicket("1004",13),
         new StudentAdvanceTicket("1005",5)};
 
+        /*The loop will iterate through the array of Tickets and display each
+        objects String representation. getPrice and getSerialNumber are called in
+        the class representation of each object, toString tests them implicitly in
+        client code.
+         */
+        for(Tickets t: eventTickets){
+            //Print a line to console
+            System.out.println(t);
+        }
+
     }
 }

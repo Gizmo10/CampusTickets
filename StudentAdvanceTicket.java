@@ -19,4 +19,11 @@ public class StudentAdvanceTicket extends AdvanceTicket{
           */
         return (super.getPrice()/2.0);
     }
+
+    //Override the toString() method so that it also asks for a Student ID
+    public String toString(){
+
+        //The method concatenates (ID IS REQUIRED) to the result of the parent toString() method
+        return  (super.toString() + " (ID IS REQUIRED).");
+    }
 }

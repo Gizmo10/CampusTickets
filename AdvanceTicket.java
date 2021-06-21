@@ -34,5 +34,7 @@ public class AdvanceTicket extends Tickets {
         }else{
             price = 40.00;
         }
+
+        return price;
     }
 }
